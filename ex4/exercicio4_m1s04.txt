@@ -1,0 +1,22 @@
+Usando seu entendimento, explique o que cada um dos métodos de array abaixo executam:
+
+R.:
+
+1. forEach: percorre todos os itens de um array, conforme um loop normal do For. O interessante do for Each pe que não precisamos lidar com as variáveis de controle, deixando o código mais fácil de ler. Portanto, o forEach é uma alternativa mais 'elegante' ao for.
+
+2. map: o map também percorre todos os itens do array, mas diferentemente do forEach, é possível obter um array retorno. Com o map é possível fazer transformação/alteração dos itens do array e ao final obter uma lista/array novo, com a mesma quantidade de itens da lista base.
+
+3. filter: como o próprio nome já diz, a ideia é filtrar determinada informação. No nosso caso, filtrar o conteúdo de um array. O método filter ao fazer o teste em cada elemento, retorna um ou mais conteúdos que atendam à especificação indicada na função callback e armazena o resultado em uma nova variável do tipo array. O array original não sofre nenhuma alteração pelo método filter().
+
+4. find: conforme o nome indica, o método quer encontrar um elemento em específico. Mas neste caso retorna apenas um elemento e item que satisfaz o critério de busca.
+
+5. reduce: o método reduce() executa uma função reducer para cada elemento do array, resultando em um único valor de retorno.
+A função reducer recebe quatro parâmetros:
+1. Acumulador (acc)
+2. Valor Atual (cur)
+3. Index Atual (idx)
+4. Array original (src)
+
+O valor de retorno da sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
+
+6. every: testa se todos os elementos do array passam pelo teste implementado pela função fornecida. Este método retorna um valor booleano. O valor true é retornado se a função callback retorna um valor truthy para cada um dos elementos do array, caso contrário, retorna false.

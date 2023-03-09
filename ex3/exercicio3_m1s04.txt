@@ -1,0 +1,7 @@
+Com suas palavras descreva o conceito do paradigma em questão e por que usamos classes em Javascript para aplicar este no desenvolvimento de uma aplicação.
+
+R.: O paradigma (ou a forma de estruturar o código) em questão é baseado no conceito de objetos. Isto é, baseado na construção de estruturas que agrupam características e/ou comportamentos. Os objetos podem conter dados na forma de campos, chamados de atributos; e códigos na forma de procedimentos, chamados de métodos.
+O POO foi desenvolvido com o objetivo de atuar nos problemas atuais, focando na solução de problemas.
+Na programação orientada a objeto tem-se o encapsulamento, que refere-se a técnicas de controle de acesso. Isto é, permite que a alteração e mudanças estejam ligadas a apenas uma estrutura, sendo essa estrtura o objeto. Controlando os métodos privados e públicos do objeto.
+
+A classe em JavaScript é um tipo de função. A classe é o nome que se dá para as estruturas para criar objetos. Classes em JS provêm de uma maneira mais simples e clara de criar objetos e lidar com herança.

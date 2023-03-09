@@ -1,0 +1,19 @@
+Com suas palavras descreva a importância de diferenciar as declarações var, let e const.
+A descrição de cada uma delas deve responder as seguintes perguntas:
+
+A declaração em questão respeita quais escopos?
+A declaração em questão pode ser atualizada?
+A declaração em questão pode ser declarada mais de uma vez?
+A declaração em questão sofre hoisting?
+A declaração em questão pode ser inicializada sem declaração?
+
+R.: Não entrando em detalhes quando cada uma foi criada, a importância está relacionada ao escopo (quando e em quais casos podem ser acessadas) e nos casos de serem redeclaradas ou terem seus valores reatribuidos.
+
+As 3 variáveis sofrem hoisting (içamento, elevação). Ao sofrerem hoisting significa que as declarações de variáveis e funções são alocadas na memória durante a fase de compilação, sem que ocorra qualquer alteração do código que foi escrito. Com isso, é possível usar uma função antes de declará-la; variáveis podem ser inicializadas e usadas antes de serem declaradas. Isto facilita muito na rapidez de execução e estrutura do código.   
+
+1. const - a ideia da variável constante, parte da ideia de ser uma constante. Isto é, seu valor não pode variar. Com esta ideia em mente, sabemos que seu valor não pode ser atualizado nem declarado novamente.
+A const ao ao ser inciada precisa necessariamente já ter um valor atribuído (ser declarada). Por esta razão ficam ligadas ao escopo de bloco, só podem ser acessadas dentro do bloco onde foram declaradas. O escopo de bloco vem entre chaves, {conteúdo do escopo}.
+
+2. let - a variável let segue também a mesma ideia de escopo de bloco. Apenas podem ser acessadas no bloco onde foram criadas. No entanto, diferentemente da variável const, a variável let pode ser inicializada sem declaração, podendo ser declaradas novamente. No entanto, não podem ser declaradas novamente. 
+
+3. var - diferentemente das variáveis let e const, a var pode ser atualizada e declarada novamente dentro do seu escopo. A variável var, juntamente com a let, são as variáveis que podem ser inicializadas sem serem declaradas.

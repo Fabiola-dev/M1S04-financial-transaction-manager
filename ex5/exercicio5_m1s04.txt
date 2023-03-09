@@ -1,0 +1,4 @@
+Em que momento o método constructor é chamado em uma classe?
+
+R.: O método constructor é chamado quando um objeto é criado usando a 'keyword' New.
+O constructor é uma função especial que cria e inicializa o instanciamento do objeto de uma classe. Desta forma, o objetivo de um constructor é o de criar um novo objeto e definir valores para qualquer uma das propriedades do objeto existente. 
